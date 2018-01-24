@@ -21,7 +21,7 @@ function Column(id, name) {
               success: function(response){
                 self.element.remove();
               }
-            )};
+            });
         });
 
         $columnAddCard.on('click', function() {
