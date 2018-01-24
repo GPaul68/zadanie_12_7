@@ -7,6 +7,7 @@ $ (function() {
         }
         return str;
     }
+});
 
     //Creating columns
     var todoColumn = new Column('To do');
