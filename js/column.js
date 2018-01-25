@@ -51,7 +51,7 @@ function Column(id, name) {
 }
 
 Column.prototype = {
-    addCard: function(card) {
+    createCard: function(card) {
         this.$element.children('ul').append(card.$element);
     },
     removeColumn: function() {
